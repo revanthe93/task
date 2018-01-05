@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<link href="css/bootstrap.min.css" rel="stylesheet"/>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/angular.min.js"></script>
+	 <script src="js/angular-ui-router.min.js"></script>
+	 <script src="js/angular-route.min.js"></script>
+	 <script src="js/bootstrap.min.js"></script>
+	 <script src="js/main.js"></script>
+	 <script src="directives/appHeader.js"></script>
+	 <script src="controllers/appHeader.js"></script>
+	 <script src="directives/appFooter.js"></script>
+	  <script src="controllers/appFooterController.js"></script>
+	 <script src="controllers/aboutusController.js"></script>
+	 <script src="controllers/homeController.js"></script>
+	 <script src="controllers/contactController.js"></script>
+	
+</head>
+<body class="container" ng-app="myapp">
+
+<app-header>
+</app-header>
+<marquee><h2>welcome to my app<h2></marquee>
+<div ui-view="wrapper" class=""> 
+
+	</div>
+
+<app-footer>
+</app-footer>
+</body>
+</html>

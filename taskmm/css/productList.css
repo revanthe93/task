@@ -1,0 +1,17 @@
+.item {
+  position: relative;
+  
+  border: 1px solid #333;
+  margin: 2%;
+  overflow: hidden;
+  width: 540px;
+}
+.img {
+  max-width: 100%;
+  padding-left:120px;
+  transition: all 0.3s;
+}
+.item .img:hover {
+  transform: scale(1.1);
+  background-color:#005266
+}

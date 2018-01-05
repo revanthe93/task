@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AngularJS File Upoad Example with $http and FormData</title>
+  <link href="bootstrap.min.css" rel="stylesheet"/>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/angular.min.js"></script>
+	 <script src="js/bootstrap.min.js"></script>
+	 <script src="js/main.js"></script>
+</head>
+<body ng-app="finalApp">
+    <div ng-controller="finalController">
+
+        <input type="file" id="file1" name="file" multiple
+            ng-files="getTheFiles($files)" />
+
+        <input type="button" ng-click="uploadFiles()" value="Upload" />
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+#input{
+	width:250px;
+	color:black;
+}
+#ra:hover{
+	border:1px solid gray;
+	border-radius:2px;
+	background-color:#cccccc;
+	display:block;
+	overflow:hidden;
+}

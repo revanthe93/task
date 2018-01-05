@@ -1,0 +1,14 @@
+
+<nav class="navbar navbar-inverse" ng-controller="appHeader">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">{{appName}}</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"  ng-repeat="menuu in menu"><a  href="{{menuu.link}}">{{menuu.text}}</a></li>
+     
+    </ul>
+  </div>
+  
+</nav>
+
